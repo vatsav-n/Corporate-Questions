@@ -1,0 +1,9 @@
+m = int(input("enter number m : "))
+n = int(input("enter number n : "))
+p = 1
+if(m>n):
+    print("0")
+elif(m<=n):
+    for i in range(m,n+1):
+        p = p*i
+    print(p)
